@@ -32,7 +32,10 @@ public class Dialog_admin extends javax.swing.JDialog {
         jMenu7 = new javax.swing.JMenu();
         jMenu8 = new javax.swing.JMenu();
         jMenuBar3 = new javax.swing.JMenuBar();
-        jMenu12 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
 
         jMenu7.setText("File");
         jMenuBar2.add(jMenu7);
@@ -46,9 +49,21 @@ public class Dialog_admin extends javax.swing.JDialog {
         jMenuBar3.setMaximumSize(new java.awt.Dimension(50, 32769));
         jMenuBar3.setMinimumSize(new java.awt.Dimension(50, 31));
 
-        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/how-to-buy.png"))); // NOI18N
-        jMenu12.setPreferredSize(new java.awt.Dimension(45, 54));
-        jMenuBar3.add(jMenu12);
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/usuarionegro.png"))); // NOI18N
+        jMenu3.setText("Usuario");
+        jMenuBar3.add(jMenu3);
+
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/coins17.png"))); // NOI18N
+        jMenu1.setText("coins");
+        jMenuBar3.add(jMenu1);
+
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/salirNegro.png"))); // NOI18N
+        jMenu2.setText("Salir");
+        jMenuBar3.add(jMenu2);
+
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/ventanegro.png"))); // NOI18N
+        jMenu4.setText("Venta");
+        jMenuBar3.add(jMenu4);
 
         setJMenuBar(jMenuBar3);
 
@@ -60,7 +75,7 @@ public class Dialog_admin extends javax.swing.JDialog {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 290, Short.MAX_VALUE)
         );
 
         pack();
@@ -110,7 +125,10 @@ public class Dialog_admin extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu jMenu12;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
     private javax.swing.JMenuBar jMenuBar2;
