@@ -10,6 +10,7 @@ public class JFRegistro_de_venta extends javax.swing.JFrame {
     
     public JFRegistro_de_venta() {
         initComponents();
+        this.setLocationRelativeTo(this);
     }
 
     @SuppressWarnings("unchecked")
@@ -28,6 +29,7 @@ public class JFRegistro_de_venta extends javax.swing.JFrame {
         txtfecha = new javax.swing.JFormattedTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Seller");
 
         jLabel1.setText("Cliente");
 
